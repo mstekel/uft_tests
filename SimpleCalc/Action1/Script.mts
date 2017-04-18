@@ -5,7 +5,4 @@ WindowsApp("Windows.UI.Xaml.Application").WinRTPage("pageRoot").WinRTObject("Cal
 WindowsApp("Windows.UI.Xaml.Application").WinRTPage("pageRoot").WinRTObject("Calculator").WinRTObject("StandardOperators").WinRTObject("NumberPad").WinRTButton("num1Button").Tap
 WindowsApp("Windows.UI.Xaml.Application").WinRTPage("pageRoot").WinRTObject("Calculator").WinRTObject("StandardOperators").WinRTObject("NumberPad").WinRTButton("num0Button").Tap
 WindowsApp("Windows.UI.Xaml.Application").WinRTPage("pageRoot").WinRTObject("Calculator").WinRTObject("StandardOperators").WinRTButton("equalButton").Tap
-
-WindowsApp("Windows.UI.Xaml.Application").WinRTPage("pageRoot").WinRTObject("Calculator").WinRTObject("Results").CheckProperty "text", "90", 100
-
 WindowsApp("Windows.UI.Xaml.Application").Close
